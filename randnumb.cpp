@@ -4,9 +4,7 @@
 #include <ctime>
 #include <cstdlib>
 
-int get_random_number() {
-	return 1+(rand() % 50) + 1+(rand() % 50);
-}
+//using namespace std;
 
 void print_numbers(std::vector<int> number_list) {
 	
@@ -17,6 +15,10 @@ void print_numbers(std::vector<int> number_list) {
 	}
 	std::cout << "=-=-=-= STOP =-=-=-=" << std::endl;
 	std::cout << " " << std::endl;
+}
+
+int get_random_number() {
+	return 1+(std::rand() % 50) + 1+(std::rand() % 50);
 }
 
 std::vector<int> get_numbers(int size) {
