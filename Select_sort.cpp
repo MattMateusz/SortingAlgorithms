@@ -32,6 +32,7 @@ return drunk_numbers;
 
 
 int main() {
+	//teraz serio robimy konflikty
 	int size;
 	cout << "Podaj ilosc liczb: ";
 	cin >> size;
