@@ -34,6 +34,7 @@ return drunk_numbers;
 
 
 int main() {
+	//teraz serio robimy konflikty
 	int size;
 	int internal_loop_counter = 0;
 	int external_loop_counter = 0;

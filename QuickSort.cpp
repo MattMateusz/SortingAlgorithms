@@ -41,6 +41,7 @@ vector<int> get_numbers(int size) {
 }
 
 int main() {
+    //robie konflikt hehehe
     vector<int> numbers = get_numbers(12);
     quick_sort(numbers, 0, numbers.size() - 1);
     for(int i = 0; i < numbers.size(); i++) {
