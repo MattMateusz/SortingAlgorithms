@@ -32,8 +32,8 @@ return drunk_numbers;
 
 
 int main() {
-	//teraz serio robimy konflikty
 	int size;
+	//teraz serio robimy konflikty
 	cout << "Podaj ilosc liczb: ";
 	cin >> size;
 	vector<int> real_numbers=get_numbers(size);
